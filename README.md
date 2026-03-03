@@ -9,6 +9,7 @@
 [![Chrome Web Store](https://img.shields.io/badge/Chrome-Web%20Store-blue?style=for-the-badge&logo=google-chrome)](https://pswdgen.com)
 [![Website](https://img.shields.io/badge/Website-pswdgen.com-4a9eff?style=for-the-badge)](https://pswdgen.com)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![GitHub](https://img.shields.io/github/stars/offspringav/pswdgen-chrome-extension?style=for-the-badge)](https://github.com/offspringav/pswdgen-chrome-extension)
 
 Generate cryptographically secure passwords instantly with the power of [pswdgen.com](https://pswdgen.com) directly in your browser.
 
@@ -64,7 +65,7 @@ Generate cryptographically secure passwords instantly with the power of [pswdgen
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/щааыз�offspringav/pswdgen-chrome-extension.git
+   git clone https://github.com/щааыз�offspringav/pswdgen-chrome-extension.git
    cd pswdgen-chrome-extension
    ```
 
@@ -79,7 +80,7 @@ Generate cryptographically secure passwords instantly with the power of [pswdgen
 
 ### Option 2: Download ZIP
 
-1. [Download the latest release](https://github.com/щааыз�offspringav/pswdgen-chrome-extension/releases)
+1. [Download the latest release](https://github.com/щааыз�offspringav/pswdgen-chrome-extension/releases)
 2. Extract the ZIP file
 3. Follow steps 2-3 from Option 1
 
@@ -191,7 +192,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 💬 Support
 
 - Visit our [FAQ page](https://pswdgen.com/faq)
-- Open an [issue](https://github.com/щааыз�offspringav/pswdgen-chrome-extension/issues)
+- Open an [issue](https://github.com/щааыз�offspringav/pswdgen-chrome-extension/issues)
 - Check out the [website](https://pswdgen.com)
 
 ## ⭐ Show Your Support
@@ -208,6 +209,6 @@ If you find this extension useful, please:
 
 **Made with ❤️ by the Pswdgen Team**
 
-[Website](https://pswdgen.com) • [GitHub](https://github.com/щааыз�offspringav) • [Report Bug](https://github.com/щааыз�offspringav/pswdgen-chrome-extension/issues)
+[Website](https://pswdgen.com) • [GitHub](https://github.com/щааыз�offspringav) • [Report Bug](https://github.com/щааыз�offspringav/pswdgen-chrome-extension/issues)
 
 </div>
