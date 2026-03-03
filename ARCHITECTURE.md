@@ -1,4 +1,4 @@
-# 🏗️ Architecture Overview
+# Pswdgen Chrome Extension - Architecture
 
 ## Component Diagram
 
@@ -9,7 +9,7 @@
 │                                                             │
 │  ┌──────────────┐      ┌──────────────┐                   │
 │  │   Toolbar    │      │  Context     │                   │
-│  │   Icon 🔐    │      │  Menu        │                   │
+│  │   Icon       │      │  Menu        │                   │
 │  └──────┬───────┘      └──────┬───────┘                   │
 │         │                     │                            │
 │         │ Click               │ Right-click                │
@@ -324,16 +324,16 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 ## Browser Compatibility
 
 ### Chrome
-✅ Fully supported (Manifest V3)
+Fully supported (Manifest V3)
 
 ### Edge
-✅ Should work (Chromium-based, Manifest V3)
+Should work (Chromium-based, Manifest V3)
 
 ### Firefox
-⚠️ Needs port (Manifest V2 or V3 with modifications)
+Needs port (Manifest V2 or V3 with modifications)
 
 ### Safari
-⚠️ Needs significant changes (different extension API)
+Needs significant changes (different extension API)
 
 ### Opera
-✅ Should work (Chromium-based)
+Should work (Chromium-based)

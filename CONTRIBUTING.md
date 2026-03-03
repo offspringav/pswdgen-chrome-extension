@@ -1,12 +1,12 @@
 # Contributing to Pswdgen Chrome Extension
 
-Thank you for your interest in contributing! 🎉
+Thank you for your interest in contributing!
 
 ## How to Contribute
 
 ### Reporting Bugs
 
-1. Check if the bug has already been reported in [Issues](https://github.com/щааыз�offspringav/pswdgen-chrome-extension/issues)
+1. Check if the bug has already been reported in [Issues](https://github.com/offspringav/pswdgen-chrome-extension/issues)
 2. If not, create a new issue with:
    - Clear title and description
    - Steps to reproduce
@@ -17,7 +17,7 @@ Thank you for your interest in contributing! 🎉
 
 ### Suggesting Features
 
-1. Check [Issues](https://github.com/щааыз�offspringav/pswdgen-chrome-extension/issues) for existing suggestions
+1. Check [Issues](https://github.com/offspringav/pswdgen-chrome-extension/issues) for existing suggestions
 2. Create a new issue with:
    - Clear description of the feature
    - Use cases
@@ -52,7 +52,7 @@ Thank you for your interest in contributing! 🎉
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/щааыз�offspringav/pswdgen-chrome-extension.git
+   git clone https://github.com/offspringav/pswdgen-chrome-extension.git
    cd pswdgen-chrome-extension
    ```
 
@@ -78,18 +78,18 @@ Thank you for your interest in contributing! 🎉
 
 Before submitting a PR, please test:
 
-- [ ] All three generators (Password, Passphrase, PIN)
-- [ ] Copy button works
-- [ ] Insert button works
-- [ ] Context menu works
-- [ ] Keyboard shortcuts work
-- [ ] Settings are saved
-- [ ] No console errors
-- [ ] Works on different websites
+- All three generators (Password, Passphrase, PIN)
+- Copy button works
+- Insert button works
+- Context menu works
+- Keyboard shortcuts work
+- Settings are saved
+- No console errors
+- Works on different websites
 
 ## Questions?
 
-- Open an [issue](https://github.com/щааыз�offspringav/pswdgen-chrome-extension/issues)
+- Open an [issue](https://github.com/offspringav/pswdgen-chrome-extension/issues)
 - Visit [pswdgen.com/faq](https://pswdgen.com/faq)
 
-Thank you for contributing! 🙏
+Thank you for contributing!
