@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pswdgen</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🔐 Pswdgen</h1>
+    </header>
+
+    <div class="tabs">
+      <button class="tab active" data-tab="password">Password</button>
+      <button class="tab" data-tab="passphrase">Passphrase</button>
+      <button class="tab" data-tab="pin">PIN</button>
+    </div>
+
+    <!-- Password Tab -->
+    <div class="tab-content active" id="password-tab">
+      <div class="result-container">
+        <input type="text" id="password-result" readonly placeholder="Click Generate">
+        <button id="copy-password" class="icon-btn" title="Copy">📋</button>
+      </div>
+
+      <div class="controls">
+        <div class="control-group">
+          <label>
+            Length: <span id="password-length-value">16</span>
+          </label>
+          <input type="range" id="password-length" min="8" max="64" value="16">
+        </div>
+
+        <div class="checkbox-group">
+          <label>
+            <input type="checkbox" id="use-uppercase" checked>
+            Uppercase (A-Z)
+          </label>
+          <label>
+            <input type="checkbox" id="use-lowercase" checked>
+            Lowercase (a-z)
+          </label>
+          <label>
+            <input type="checkbox" id="use-digits" checked>
+            Digits (0-9)
+          </label>
+          <label>
+            <input type="checkbox" id="use-special" checked>
+            Special (!@#$...)
+          </label>
+          <label>
+            <input type="checkbox" id="exclude-ambiguous">
+            Exclude ambiguous (0Ol1I)
+          </label>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="generate-password" class="btn-primary">Generate</button>
+        <button id="insert-password" class="btn-secondary">Insert</button>
+      </div>
+    </div>
+
+    <!-- Passphrase Tab -->
+    <div class="tab-content" id="passphrase-tab">
+      <div class="result-container">
+        <input type="text" id="passphrase-result" readonly placeholder="Click Generate">
+        <button id="copy-passphrase" class="icon-btn" title="Copy">📋</button>
+      </div>
+
+      <div class="controls">
+        <div class="control-group">
+          <label>
+            Words: <span id="word-count-value">4</span>
+          </label>
+          <input type="range" id="word-count" min="3" max="8" value="4">
+        </div>
+
+        <div class="control-group">
+          <label for="separator">Separator:</label>
+          <input type="text" id="separator" value="-" maxlength="3">
+        </div>
+
+        <div class="checkbox-group">
+          <label>
+            <input type="checkbox" id="capitalize" checked>
+            Capitalize words
+          </label>
+          <label>
+            <input type="checkbox" id="include-number" checked>
+            Include number
+          </label>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="generate-passphrase" class="btn-primary">Generate</button>
+        <button id="insert-passphrase" class="btn-secondary">Insert</button>
+      </div>
+    </div>
+
+    <!-- PIN Tab -->
+    <div class="tab-content" id="pin-tab">
+      <div class="result-container">
+        <input type="text" id="pin-result" readonly placeholder="Click Generate">
+        <button id="copy-pin" class="icon-btn" title="Copy">📋</button>
+      </div>
+
+      <div class="controls">
+        <div class="control-group">
+          <label for="pin-length">Length:</label>
+          <select id="pin-length">
+            <option value="4">4 digits</option>
+            <option value="6" selected>6 digits</option>
+            <option value="8">8 digits</option>
+          </select>
+        </div>
+
+        <div class="checkbox-group">
+          <label>
+            <input type="checkbox" id="exclude-repeated" checked>
+            Exclude repeated digits
+          </label>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="generate-pin" class="btn-primary">Generate</button>
+        <button id="insert-pin" class="btn-secondary">Insert</button>
+      </div>
+    </div>
+
+    <footer>
+      <a href="https://pswdgen.com" target="_blank">pswdgen.com</a>
+    </footer>
+  </div>
+
+  <script src="core/crypto.js"></script>
+  <script src="core/password-generator.js"></script>
+  <script src="core/passphrase-generator.js"></script>
+  <script src="core/pin-generator.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
